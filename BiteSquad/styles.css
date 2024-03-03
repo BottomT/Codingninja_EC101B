@@ -143,9 +143,11 @@ footer {
 
 .anet {
     overflow: hidden;
-    white-space: nowrap; /* Ensures text stays on a single line */
     margin: 0 auto;
     letter-spacing: .15em;
+    max-width: 500px; /* Limit the width on smaller screens */
+  word-wrap: break-word; /* Allow text to wrap on small screens */
+
   
     /* Animation for typing, using steps to avoid smooth movement */
     animation: typing 3.5s steps(40, end) forwards;
