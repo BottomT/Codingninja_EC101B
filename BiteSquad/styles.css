@@ -46,10 +46,10 @@ nav ul li a {
     /* background-image: url('hero.jpg');
     background-size: cover;
     background-position: center; */
-    color: #fff;
+    color: #CD9F4A;
     text-align: center;
     height: auto;
-    /* padding: 100px 0; */
+
 }
 
 .hero h2 {
@@ -140,3 +140,57 @@ footer {
     bottom: 0;
     /* width: 100%; */
 }
+
+.anet {
+    overflow: hidden;
+    white-space: nowrap; /* Ensures text stays on a single line */
+    margin: 0 auto;
+    letter-spacing: .15em;
+  
+    /* Animation for typing, using steps to avoid smooth movement */
+    animation: typing 3.5s steps(40, end) forwards;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  .anet:after {
+    content: "";
+    display: inline-block;
+    width: .15em;
+    height: 1em;
+    background-color: orange;
+    margin-left: .15em; 
+  
+    /* Animate blinking cursor using background-color change */
+    animation: blink-caret .75s step-end infinite;
+  }
+  
+  @keyframes blink-caret {
+    from, to { background-color: transparent }
+
+    50% { background-color: orange; }
+  }
+.hero a.btn:hover {
+    background-color: #412004; 
+    color: #fff;
+}
+
+.card p:nth-child(3) { 
+    color: #000; 
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+  
+.bur:hover { 
+    color: #008000; 
+    text-shadow: 0 0 2px #064706; 
+    transform: scale(1.1); 
+}
+.pzza:hover { 
+    color: #008000; 
+    text-shadow: 0 0 2px #064706; 
+    transform: scale(1.1); 
+  }
