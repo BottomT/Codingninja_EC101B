@@ -145,8 +145,9 @@ footer {
     overflow: hidden;
     margin: 0 auto;
     letter-spacing: .15em;
+    white-space: nowrap; /* Ensures text stays on a single line */
     max-width: 500px; /* Limit the width on smaller screens */
-  word-wrap: break-word; /* Allow text to wrap on small screens */
+  /*word-wrap: normal;  Allow text to wrap on small screens */
 
   
     /* Animation for typing, using steps to avoid smooth movement */
@@ -194,4 +195,55 @@ footer {
     color: #008000; 
     text-shadow: 0 0 2px #064706; 
     transform: scale(1.1); 
+}
+
+*{
+    text-decoration: none;
+}
+.navbar{
+    background: transparent; font-family: calibri; padding-right: 15px;padding-left: 15px;
+}
+.navdiv{
+    display: flex; align-items: center; justify-content: space-between;
+}
+
+.container{
+    text-align: center;
+    margin-top: auto;
+  }
+.btn{
+    border: 1px solid #B39772;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+}
+.btn1,.btn2,.btn3,.btn4,.btn5,.btn6{
+    color: #B39772;
+}
+.btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover,.btn5:hover,.btn6:hover{
+    color: #ffffff;
+}
+.btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #B39772;
+    z-index: -1;
+    transition: 0.8s;
+  }
+.btn1::before,.btn2::before,.btn3::before,.btn4::before,.btn5::before,.btn6::before{
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+}
+.btn1:hover::before,.btn2:hover::before,.btn3:hover::before,.btn4:hover::before,.btn5:hover::before,.btn6:hover::before{
+    height: 180%;
 }
