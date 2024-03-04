@@ -59,7 +59,8 @@ nav ul li a {
     margin-top: 20px;
     margin-bottom: 10px;
     /* font-weight: 700; */
-    color: #FDF0D5;
+    color: #B39772;
+
 }
 
 .hero p {
@@ -144,6 +145,8 @@ footer {
 .anet {
     overflow: hidden;
     margin: 0 auto;
+    font-weight: 500;
+    font-style: italic;
     letter-spacing: .15em;
     white-space: nowrap; /* Ensures text stays on a single line */
     max-width: 500px; /* Limit the width on smaller screens */
