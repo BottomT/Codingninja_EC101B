@@ -46,7 +46,7 @@ nav ul li a {
     /* background-image: url('hero.jpg');
     background-size: cover;
     background-position: center; */
-    color: #CD9F4A;
+    color: #b18534;
     text-align: center;
     height: auto;
 
@@ -246,4 +246,128 @@ footer {
 }
 .btn1:hover::before,.btn2:hover::before,.btn3:hover::before,.btn4:hover::before,.btn5:hover::before,.btn6:hover::before{
     height: 180%;
+}
+
+footer{
+    width: 100%;
+    float: left;
+    position: relative;
+    color: #f1eedb;
+    border-bottom: 30px solid #4d443d;
+    font-size: 22px;
+    background: url(footer.jpg) no-repeat;
+    background-size: cover;
+    display: block;
+    font-family: 'Bebas Neuer', sans-serif;
+    line-height: 1.5;
+}
+footer .wrapper{
+    width: 90%;
+    min-width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    float: left;
+    margin: 0 auto;
+    font-size: 18px;
+    display: block;
+    font-family: 'Bebas Neuer', sans-serif;
+}
+.bfp-icon {
+    background: url(bfp.png) no-repeat;
+    width: 120px;
+    height: 60px;
+    display: block;
+    float: right;
+    background-size: contain;
+    position: absolute;
+    right: 30px;
+    bottom: 15px;
+}
+.col-6{
+    width: 50%;
+}
+.col{
+    float:left;
+}
+.col-12{
+    width: 100%;
+}
+footer .logosquad {
+    float: left;
+    margin-left: 40%;
+    border-radius: 50%;
+    background: url(logo.png) no-repeat;
+    width: 50%;
+    height: 110px;
+    background-size: 90px 90px;
+    background-position: center;
+}
+footer .wrapper .footer-inner {
+    margin: 80px 0 0;
+}
+footer .f-h-1 {
+    width: 40%;
+    margin-right: 10%;
+    float: left;
+}
+.icon-tw, .icon-fb, .icon-inst {
+    width: 35px;
+    height: 35px;
+    background-size: 35px 35px;
+    margin-bottom: 10px;
+}
+.icon-fb{
+    border-radius: 50%;
+}
+footer .f-h-2 {
+    width: 50%;
+    float: left;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+ul li{
+    list-style: none;
+    font-weight: 600;
+    text-shadow: none;
+    font-size: 22px;
+}
+footer .bottom {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 16px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    font-size: 18px;
+    font-weight: 600;
+}
+span{
+    font-weight: 600;
+    font-size: 17px;
+}
+.contact{
+    padding-left: 60px;
+}
+.callus{
+    padding-left: 23px;
+}
+ul li:hover{
+    color: #b19884;
+    cursor: pointer;
+}
+span:hover{
+    color: #b19884;
+    cursor: pointer;
 }
